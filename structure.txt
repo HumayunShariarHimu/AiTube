@@ -1,0 +1,13 @@
+youtube_ai_web/
+│
+├── static/              # CSS, JS, images
+├── templates/           # HTML ফাইল
+├── app.py               # Flask Main App
+├── ai/                  
+│   ├── script_gen.py        # GPT স্ক্রিপ্ট
+│   ├── tts_gen.py           # ভয়েস
+│   ├── video_gen.py         # MoviePy দিয়ে ভিডিও
+│   ├── meta_gen.py          # SEO Metadata
+│   └── youtube_upload.py    # YouTube API
+├── requirements.txt
+└── client_secret.json       # YouTube OAuth
